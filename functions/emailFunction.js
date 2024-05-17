@@ -9,8 +9,8 @@ app.use(express.json());
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "deepaksundarnarayanan@gmail.com",
-    pass: "uexbhffwsspodrvr"
+    user: "************@gmail.com",
+    pass: "*********"
   }
 });
 
